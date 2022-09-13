@@ -1,4 +1,4 @@
-name: Recovery Build
+name: ROG Phone 6 
 
 on:
   workflow_dispatch:
@@ -35,7 +35,8 @@ on:
         default: 'ASUS_AI2201'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
-        required: false
+        required: true
+        default: 'omni_ASUS_AI2201'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
